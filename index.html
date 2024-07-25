@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        .skills-container, .work-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+        .skill-item, .work-item {
+            text-align: center;
+            max-width: 250px;
+            margin: 10px;
+        }
+        .skill-item img, .work-item img {
+            width: 100px;
+            height: 100px;
+        }
+        .work-description {
+            text-align: left;
+            max-width: 300px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Section tag for the skills section -->
+    <section id="my-ux-skills">
+        <!-- h1 tag for the section title -->
+        <h1>My UX Skills</h1>
+        
+        <!-- Main div tag containing the skills as flex children -->
+        <div class="skills-container">
+            
+            <!-- First skill div tag -->
+            <div class="skill-item">
+                <!-- img tag for the skill icon/image -->
+                <img src="path/to/research-icon.png" alt="User Research Icon">
+                <!-- h1 tag for the skill title -->
+                <h1>User Research</h1>
+                <!-- p tag describing the skill -->
+                <p>I conduct thorough user research to understand the needs, behaviors, and motivations of users to inform design decisions.</p>
+            </div>
+            
+            <!-- Second skill div tag -->
+            <div class="skill-item">
+                <!-- img tag for the skill icon/image -->
+                <img src="path/to/prototyping-icon.png" alt="Prototyping Icon">
+                <!-- h1 tag for the skill title -->
+                <h1>Prototyping</h1>
+                <!-- p tag describing the skill -->
+                <p>I create interactive prototypes to visualize and test design solutions, ensuring they meet user needs and expectations.</p>
+            </div>
+            
+            <!-- Third skill div tag -->
+            <div class="skill-item">
+                <!-- img tag for the skill icon/image -->
+                <img src="path/to/visual-design-icon.png" alt="Visual Design Icon">
+                <!-- h1 tag for the skill title -->
+                <h1>Visual Design</h1>
+                <!-- p tag describing the skill -->
+                <p>With a keen eye for aesthetics, I design visually appealing interfaces that enhance user experience and align with brand identity.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section tag for the work section -->
+    <section id="my-work">
+        <!-- h1 tag for the section title -->
+        <h1>My Work</h1>
+        
+        <!-- Main div tag containing the work items as flex children -->
+        <div class="work-container">
+            
+            <!-- First row of work items -->
+            <div class="work-item">
+                <!-- img tag for the project image -->
+                <img src="path/to/project1-image.png" alt="Project 1 Image">
+            </div>
+            <div class="work-description">
+                <!-- h4 tag for the project title -->
+                <h4>Project Title 1</h4>
+                <!-- p tag describing the project -->
+                <p>A brief description of Project 1, detailing the design process and outcome.</p>
+         
